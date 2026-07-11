@@ -2,6 +2,15 @@
 ## Actividad Práctica - Apartado 2
 
 ---
+### Paso 1: Investigación dirigida
+
+#### Comparación entre calidad interna, externa y en uso.
+
+Tanto la calidad interna como la calidad externa son métricas que se enfocan en la calidad de producto, es decir, evalúan basados en estándares y métricas con carácter exacto y objetivo, y siempre desde la perspectiva de especialistas. La calidad interna se enfoca en una calidad "estática" del producto, revisando el código y estructura del software sin ejecutar con el fin de detectar carencias o vulnerabilidades producidas por malas prácticas de programación. Por su parte, la calidad externa mide la calidad "dinámica" del software en ejecución, considerando aspectos de desempeño del producto como el uso de recursos, seguridad, tolerancia a fallos, e interacción con otros elementos de su entorno.
+
+La calidad en uso por su parte, también se rige por métricas y estándares pero tiene un carácter mucho más flexible y subjetivo, siendo probado por usuarios reales o de prueba, y recolectando sus datos de interacción. Este tipo de calidad se enfoca en la pertinencia del software, es decir en su nivel de utilidad y aporte para el propósito con el que fue desarrollado, así como en la comodidad y experiencia que da a sus usuarios.
+
+
 
 ### Paso 2: Clasificación de Incidentes según las Cinco Características
 
