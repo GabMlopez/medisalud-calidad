@@ -1,0 +1,16 @@
+{
+  "umbrales": {
+    "efectividad_precision_citas": 0.85,
+    "eficiencia_pasos_agendamiento": 3.0,
+    "riesgo_pagos_duplicados": 0.01,
+    "satisfaccion_telemedicina": 80.0,
+    "cobertura_limite_incidencias": 50
+  },
+  "rutas": {
+    "citas": "data/citas_agendadas.csv",
+    "intentos": "data/intentos_agendamiento.csv",
+    "pagos": "data/pagos_seguros.csv",
+    "encuestas": "data/encuesta_satisfaccion_telemedicina.csv",
+    "incidencias": "data/incidencias_telemedicina.csv"
+  }
+}

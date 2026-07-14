@@ -1,0 +1,56 @@
+{
+  "proyecto": "MediSalud Telemedicina - Calidad en Uso",
+  "norma": "ISO/IEC 25022",
+  "metricas_globales": {
+    "efectividad": {
+      "nombre": "Tasa de precisión de tarea (Citas correctas)",
+      "caracteristica": "Efectividad (ISO 25022)",
+      "valor": 0.8824,
+      "unidad": "proporcion",
+      "umbral": 0.85,
+      "cumple": true
+    },
+    "eficiencia": {
+      "nombre": "Complejidad de tarea (Promedio de pasos)",
+      "caracteristica": "Eficiencia (ISO 25022)",
+      "valor": 2.79,
+      "unidad": "pasos",
+      "umbral": 3.0,
+      "cumple": true
+    },
+    "libertad_riesgo": {
+      "nombre": "Tasa de transacciones duplicadas",
+      "caracteristica": "Libertad de Riesgo Financiero (ISO 25022)",
+      "valor": 0.0045,
+      "unidad": "proporcion",
+      "umbral": 0.01,
+      "cumple": true
+    },
+    "satisfaccion": {
+      "nombre": "Puntaje promedio de satisfacción",
+      "caracteristica": "Satisfacción (ISO 25022)",
+      "valor": 84.39,
+      "unidad": "puntos (escala 100)",
+      "umbral": 80.0,
+      "cumple": true
+    },
+    "cobertura_contexto": {
+      "nombre": "Total de incidencias en dispositivos",
+      "caracteristica": "Cobertura de Contexto (ISO 25022)",
+      "valor": 208,
+      "unidad": "incidencias",
+      "umbral": 50,
+      "cumple": false
+    }
+  },
+  "cobertura_contexto_dispositivos": [
+    {
+      "plataforma": "movil",
+      "total_incidencias": 151
+    },
+    {
+      "plataforma": "web",
+      "total_incidencias": 57
+    }
+  ]
+}
